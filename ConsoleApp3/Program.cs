@@ -1,11 +1,10 @@
-﻿namespace Tyuiu.ErmakovAA.Sprint0.Task0.V0
+﻿namespace ConsoleApp3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-           
         }
     }
 }

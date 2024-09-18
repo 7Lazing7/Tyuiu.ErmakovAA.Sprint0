@@ -8,12 +8,12 @@ namespace Tyuiu.ErmakovAA.Sprint0.Task2.V0.Test
         [TestMethod]
         public void CheckGetMassegeValid()
         {
-            //область создания метода тестирования, методов из библиотеки 
-            var name = "Александр";
+            //РћР±Р»Р°СЃС‚СЊ СЃРѕР·РґР°РЅРёСЏ РјРµС‚РѕРґРѕРІ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ, РјРµС‚РѕРґРѕРІ РёР· Р±РёР±Р»РёРѕС‚РµРєРё
+            var name = "РђР»РµРєСЃР°РЅРґСЂ";
             var res = DataService.GetMassege(name);
 
-            //вызываем класс Assert и метод AreEqual
-            Assert.AreEqual("Приветик, Александр", res);
+            //Р’С‹Р·С‹РІР°РµРј РєР»Р°СЃСЃ Assert Рё РјРµС‚РѕРґ AreEqual
+            Assert.AreEqual("РџСЂРёРІРµС‚РёРє, РђР»РµРєСЃР°РЅРґСЂ", res);
 
         }
     }
